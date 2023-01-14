@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+body{
+    font-family:'Almarai', sans-serif;
+    background-image: url(../Images/LoudSPeaker2.jpg) ;
+}
+/* Start Header */
+
+.header{
+    background-color: rgb(104, 139, 154);
+    color: antiquewhite;
+    height: 50px;
+    line-height: 50px;
+}
+.header a {
+    float: right;
+    margin-top: 6px;
+}
+
+
+/* End of Header */
+
+/* Start Slider */
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    z-index: 1;
+}
+.overlay h5 {
+    padding-top: 10px;
+    color: rgb(248, 233, 221);
+    font-size: 50px;
+    font-style: oblique;
+    display: inline-block;
+}
+.overlay span{ background-color: brown;
+}
+.carousel-indicators li{
+    height: 20px;
+    background-color: blue;
+
+}
+/* End Slider */
+/* start collection */
+.collection h2 {
+    display: inline-block;
+    background-color: rgb(4, 47, 105);
+    color:antiquewhite;
+    font-size: 50px;
+    margin-top: 50px;
+    
+}
+.collection .row {
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(4, 47, 105);
+    padding-top: 5px;
+    
+}
+.collection i{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    line-height: 100px;
+    color:antiquewhite ;
+    font-size: 30px;
+}
+.collection h3 {
+    font-size: 30px;
+    display: inline-block;
+    background-color: rgb(247, 241, 234);
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.collection p{
+    color: rgb(204, 200, 200);
+    line-height: 1.8;
+}
+
+/* End collection */
+
+/* start our team */
+.our-team {
+    color: rgb(4, 47, 105);
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+.our-team h2 {
+    display: inline-block;
+    background-color: rgb(4, 47, 105);
+    color:antiquewhite;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.our-team h5 {
+    background-color: none;
+    color: rgb(4, 47, 105);
+    font-size: 30px;
+}
+.our-team p {
+    color: grey;
+}
+/* End our team */
+/* start sales */
+.sales {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background-image: url(../Images/cover1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sales .overlay {
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 100%;
+    height: 600px;
+}
+.sales .overlay h3 {
+    background-color: brown;
+    font-size: 130px;
+    color: antiquewhite
+}
+
+.sales .overlay p {
+    color:antiquewhite;
+    font-size: 30px;
+}
+
+
+/* end sales */
+/* start our partners */
+.our-partners {
+    margin-top: 100px;
+    color: antiquewhite;
+    background-color: white;
+    line-height: 100px;
+    background-image: url();
+    border: 5px solid brown;;
+}
+.our-partners h2{
+    display: inline-block;
+    background-color: rgb(4, 47, 105);
+    color:antiquewhite;
+    margin-top: 60px;
+    font-size: 50px;
+}
+/* end our partners */
+/* start new release */
+.new-release h2 {
+    display: inline-block;
+    background-color: rgb(4, 47, 105);
+    color:antiquewhite;
+    margin-top: 60px;
+    font-size: 50px;
+}
+.new-release .btn-danger {
+    border-color: antiquewhite;
+    
+}
+.new-release .btn-danger:hover {
+    background-color: rgb(4, 47, 105);
+}
+/* end new release */
+/* start Footer */
+footer {
+    background-color: rgb(4, 47, 105);
+    padding-top: 30px;
+    background-image: url(/Images/Background.jpg);
+    margin-top: 150px;
+}
+footer p {
+    color: antiquewhite;
+}
+footer h2 {
+    color: antiquewhite;
+}
+footer a{
+    color: antiquewhite;
+    font-style:oblique;
+}
+footer a:hover {
+    color:red;
+
+}
+footer ul li {
+    list-style: none;
+
+}
+/* End Footer */
+
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron .blog_info {
+    flex: 2;
+}
+.jumbotron .blog_image {
+    flex: 1;
+}
+.blog-2 h2 {
+    background-color: rgb(4, 47, 105);
+    color: antiquewhite;
+}
+
+.Rate {
+    background-color: white;
+    color: rgb(4, 47, 105);
+    margin-top: 90px;
+    padding: 10px
+}
+.blog_details{
+    line-height: 2;
+    padding: 10px;
+}
+.blog_details .card h5{
+    color: rgb(4, 47, 105) ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+.blog_details .card p {
+    color: grey;
+    font-size: 20px;
+    
+}
+.shop img:hover {
+transform: scale(1.1);
+}
